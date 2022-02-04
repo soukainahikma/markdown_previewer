@@ -1,0 +1,54 @@
+body{
+	background-color: #DCEBEF;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	background-color: #EFF2F2;
+  }
+  .container {
+	margin:10px;
+	display: flex; 
+  }
+  #editor{
+	border: none;
+	resize: none;
+	width: 100%;
+	height: 100%;
+	background-color: #EFF2F2;
+  }
+  fieldset {
+    font-family: sans-serif;
+    border: 5px solid white;
+    background: #ddd;
+    padding: 15px;
+	width: 100%;
+	margin:10px;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border: 2px solid #C2E4EC;
+	background-color: #EFF2F2;
+	height: 1000px;
+}
+fieldset legend {
+    background: #C2E4EC;
+    color: black;
+    padding: 5px 10px ;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 0px;
+}
+#preview{
+	width: 100%;
+	height: 100%;
+	margin-top: -10px;
+	overflow: scroll;
+}
+fieldset:hover
+{
+	box-shadow: 0 5px 5px rgb(167, 167, 167);
+}
+#preview img{
+	max-width: 600px;
+}
